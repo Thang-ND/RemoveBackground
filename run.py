@@ -71,7 +71,7 @@ elif action == 'remove-bg':
 
         print(x_min, y_min, x_max, y_max)
         img = cv2.imread(input_path)
-        w, h = img.shape[:2]
+        h, w = img.shape[:2]
         z = 10
         x_min = max(0, x_min - z)
         y_min = max(0, y_min - z)
