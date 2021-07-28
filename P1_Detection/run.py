@@ -22,8 +22,8 @@ def load_model():
 def load_image(img_path='P1_Detection/data/guitar2.jpg'):
     image = cv2.imread(img_path)
     height,width = image.shape[:2]
-    if height >= 1000 or width >= 1000:
-        image = cv2.resize(image, None, fx=0.5, fy=0.5)
+#     if height >= 1000 or width >= 1000:
+#         image = cv2.resize(image, None, fx=0.5, fy=0.5)
 
     height,width = image.shape[:2]
     return image, height, width
