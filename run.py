@@ -5,7 +5,7 @@
     Example: 
     Th1: python run.py -i input/people.jpg -o output_P2 -a remove-bg (thực hiện chỉ tách background)
     Th2: 
-        Step 1: python run.py -i input/people.jpg -o output_P1 -a detection (thực hiện detect object trả về bounding box)
+        Step 1: python run.py -i input/people.jpg -o output_P1 -a detect (thực hiện detect object trả về bounding box)
         Step 2: python run.py -i input/people.jpg -o output_P2 -a remove-bg -s 0,1,4,8 (thực hiện tách bg cho các đối tượng đã được chọn 0, 1, 4, 8)
 """
 import argparse
